@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bilgisayar</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"></head>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+</head>
+<body >
+    <header>
+          
+        <img class="logo"src="/gallery/logokurukafa.png">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-4 col-sm-12 col-12">
+                      <div class="btn-group">
+                          <button 
+                          class="btn border dropdown-toggle my-md-4 my-2 "
+                          data-toggle="dropdown"
+                          aria-haspopup="true"
+                          aria-expanded="false"
+                          > TR  
+                         </button>
+                        <div class="dropdown-menu ">
+                            <a href="#" class="dropdown-item">EURO</a>
+                            <a href="#" class="dropdown-item">USD</a>                                  
+                        </div>
+                        
+                      </div>
+                     </div>
+                     <div class="col-md-4 col-12 text-center "> 
+                     <h2 class="my-md-3 site-title ">BECO ELEKTRONİK</h2>
+                     </div>
+                     <div class="col-md-4 col-12 text-right">
+                         <p class="my-md-4 header-links">
+                             
+                           <a href="kayıtol.html" class="kayıtol" >Kayıt Ol</a>  
+                         </p>
+                     </div>
+              </div>
+          </div>
+          <p class="adsoyadnumara">BERK TUNÇ <br> B171200016</p>
+          <div class="container-fluid p-0">
+                  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                          
+                          <button 
+                          class="navbar-toggler"
+                           type="button" 
+                           data-toggle="collapse"
+                           data-target="#navbarNav" 
+                           aria-controls="navbarNav" 
+                           aria-expanded="false"
+                           aria-label="Toggle navigation"
+                           >
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+
+                          <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                              <li class="nav-item active">
+                                <a class="nav-link" href="main.html"
+                                >Anasayfa <span class="sr-only">(current)</span></a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link"  href="bilgisayar.html">Bilgisayar</a>
+                                
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="telefon.html">Telefon</a>
+                              </li>
+                              <li class="nav-item">
+                                      <a class="nav-link" href="televizyon.html">Televizyon</a>
+                                    </li>
+                                    <li class="nav-item">
+                                          <a class="nav-link" href="photo.html">Galeri</a>
+                                        </li>   
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="hakkımızda.html">HAKKIMIZDA & İLETİŞİM</a>
+                                        </li>    
+                                      </ul>
+                                    </div>
+                                                  <!--Parlaklık aç kapa-->
+                                        <div id="parlaklıkaçkapa" onclick="off()"></div>
+
+                                        <div style="padding:20px">
+
+                                        <button onclick="on()">Parlaklık Aç/Kapa</button>
+                                         </div>
+                                                 <!--Parlaklık aç kapa-->
+
+                            </div>
+                        </header>
+                        <!--LOGİN BUTONU-->
+      <button class="open-button" onclick="openForm()">Giriş yap</button>
+
+    
+      <div class="form-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+          <h1>Login</h1>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+      
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+      
+          <button type="submit" class="btn">Login</button>
+          <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div>
+      
+
+    <div class="breadcrumb"><a class="breadcrumb__step breadcrumb__step--active" href="main.html">Anasayfa</a><a class="breadcrumb__step" href="bilgisayar.html">Bilgisayar</a></div>
+    
+    
+
+    <h2 style="text-align:center; color: red;">LAPTOP ÜRÜNLERİ</h2>
+
+        <div class="card">
+          <img src="/Bilgisayar Ürünleri Galerisi/ürün1.jpg" alt="Denim Jeans" style="width:100%">
+          <h1>EXCALIBUR</h1>
+          <p class="price">8.299,99 ₺</p>
+          <p>EXCALIBUR I5-7200<br> 8GB 1TB + 256SSD<br> NVIDIA 14"DOS <br> X407UB-BV234RH</p>
+          <p><button>Add to Cart</button></p>
+        </div>
+
+        <div class="card">
+                <img src="/Bilgisayar Ürünleri Galerisi/ürün2.jpg" alt="Denim Jeans" style="width:100%">
+                <h1>MSI</h1>
+                <p class="price">15.900,00 ₺</p>
+                <p>MSI GS73 STEALTH CORE<br> İ7 8750H<br> 2.2GHZ-16GB-256GB<br> SSD+2TB-17.3"-GT</p>
+                <p><button>Add to Cart</button></p>
+              </div>
+
+              <div class="card" id="bilgisayarcard">
+                    <img src="/Bilgisayar Ürünleri Galerisi/ürün3.jpg" alt="Denim Jeans" style="width:100%">
+                    <h1>CASPER</h1>
+                    <p class="price">3.949,99 ₺</p>
+                    <p>Casper S500.8565-8D50X-G-F<br> 15.6 FHD<br> i7-8565U MX230<br> 240GB SSD 8GB</p>
+                    <p><button>Add to Cart</button></p>
+                  </div>
+
+                  <div class="card" id="bilgisayarcard">
+                        <img src="/Bilgisayar Ürünleri Galerisi/ürün4.jpg" alt="Denim Jeans" style="width:100%">
+                        <h1>ASUS</h1>
+                        <p class="price">6.949,99 ₺</p>
+                        <p>ASUS I5-7200<br> 8GB 1TB + 256SSD<br> NVIDIA 14"DOS <br> X407UB-BV234RH</p>
+                        <p><button>Add to Cart</button></p>
+                      </div>
+                      <div class="card"id="bilgisayarcard" >
+                            <img src="/Bilgisayar Ürünleri Galerisi/ürün5.jpg" alt="Denim Jeans" style="width:100%">
+                            <h1>HP</h1>
+                            <p class="price">8.876,99 ₺</p>
+                            <p>ASUS I5-7200<br> 8GB 1TB + 256SSD<br> NVIDIA 14"DOS <br> X407UB-BV234RH</p>
+                            <p><button>Add to Cart</button></p>
+                          </div>    
+
+                          <div class="card" id="bilgisayarcard">
+                            <img src="/Bilgisayar Ürünleri Galerisi/ürün6.jpg" alt="Denim Jeans" style="width:100%">
+                            <h1>ASUS</h1>
+                            <p class="price">6.504,99 ₺</p>
+                            <p>ASUS I5-7200<br> 8GB 1TB + 256SSD<br> NVIDIA 14"DOS <br> X407UB-BV234RH</p>
+                            <p><button>Add to Cart</button></p>
+                          </div>
+                              <div class="card" id="bilgisayarcard">
+                                <img src="/Bilgisayar Ürünleri Galerisi/ürün7.jpg" alt="Denim Jeans" style="width:100%">
+                                <h1>LENOVO</h1>
+                                <p class="price">3.949,99 ₺</p>
+                                <p>LENOVO GS73 STEALTH CORE<br> İ7 8750H<br> 2.2GHZ-16GB-256GB<br> SSD+2TB-17.3"-GT</p>
+                                <p><button>Add to Cart</button></p>
+                              </div>
+                                  <div class="card" id="bilgisayarcard">
+                                    <img src="/Bilgisayar Ürünleri Galerisi/ürün8.jpg" alt="Denim Jeans" style="width:100%">
+                                    <h1>MSİ</h1>
+                                    <p class="price">2.500,80 ₺</p>
+                                    <p>MSİ I5-7200<br> 12GB 1TB + 256SSD<br> NVIDIA 14"DOS <br> X407UB-BV234RH</p>
+                                    <p><button>Add to Cart</button></p>
+                                  </div>
+                                  <div class="card" id="bilgisayarcard">
+                                    <img src="/Bilgisayar Ürünleri Galerisi/ürün9.jpg" alt="Denim Jeans" style="width:100%">
+                                    <h1>LENOVO</h1>
+                                    <p class="price">2.899,99 ₺</p>
+                                    <p>LENOVO I5-7200<br> 8GB 1TB + 256SSD<br> NVIDIA 2"DOS <br> X407UB-BV234RH</p>
+                                    <p><button>Add to Cart</button></p>
+                                  </div>
+                                  <div class="card" id="bilgisayarcard">
+                                    <img src="/Bilgisayar Ürünleri Galerisi/ürün10.jpg" alt="Denim Jeans" style="width:100%">
+                                    <h1>DELL</h1>
+                                    <p class="price">6.782,65 ₺</p>
+                                    <p>DELL I5-7200<br> 6GB 1TB + 256SSD<br> NVIDIA 28"DOS <br> X407UB-BV234RH</p>
+                                    <p><button>Add to Cart</button></p>
+                                  </div>
+                                  <div class="card" id="bilgisayarcard">
+                                    <img src="/Bilgisayar Ürünleri Galerisi/ürün11.jpg" alt="Denim Jeans" style="width:100%">
+                                    <h1>MONSTER</h1>
+                                    <p class="price">6.782,65 ₺</p>
+                                    <p>Tulpar T5 V19.1 Intel Core i7 9750H 16GB 256GB SSD GTX1660Ti Freedos 15.6" FHD Bilgisayar TULPAR T5 V19.1</p>
+                                    <p><button>Add to Cart</button></p>
+                                  </div>
+                                  <div class="card" id="bilgisayarcard">
+                                    <img src="/Bilgisayar Ürünleri Galerisi/ürün12.jpg" alt="Denim Jeans" style="width:100%">
+                                    <h1>APPLE</h1>
+                                    <p class="price">6.782,65 ₺</p>
+                                    <p>Apple MacBook Pro Intel Core i5 8279U 8GB 256GB SSD macOS 13" Taşınabilir Bilgisayar MV962TU/A T04719</p>
+                                    <p><button>Add to Cart</button></p>
+                                  </div>
+                                  <div class="card" id="bilgisayarcard">
+                                    <img src="/Bilgisayar Ürünleri Galerisi/ürün13.jpg" alt="Denim Jeans" style="width:100%">
+                                    <h1>CASPER</h1>
+                                    <p class="price">6.782,65 ₺</p>
+                                    <p>Excalıbur G900.9750-b580a I7-9750h 16g 1tb+240ssd 8g Rtx2080 W10 G900.9750 B580A</p>
+                                    <p><button>Add to Cart</button></p>
+                                  </div>
+                                  <div class="card" id="bilgisayarcard">
+                                    <img src="/Bilgisayar Ürünleri Galerisi/ürün14.jpg" alt="Denim Jeans" style="width:100%">
+                                    <h1>ASUS</h1>
+                                    <p class="price">6.782,65 ₺</p>
+                                    <p>ASUS GAMING RYZEN7 3750H FX705DU-AU03706 32GB 1TB+512SSD 6GB 17.3FHD  </p>
+                                    <p><button>Add to Cart</button></p>
+                                  </div>
+                                  <div class="card" id="bilgisayarcard">
+                                    <img src="/Bilgisayar Ürünleri Galerisi/ürün15.jpg" alt="Denim Jeans" style="width:100%">
+                                    <h1>APPLE</h1>
+                                    <p class="price">6.782,65 ₺</p>
+                                    <p>Apple MacBook Pro Intel Core i5 8GB 256GB SSD MacOs Sierra 13.3" MPXT2TU/A - Space Grey </p>
+                                    <p><button>Add to Cart</button></p>
+                                  </div>
+                                  <div class="card" id="bilgisayarcard">
+                                    <img src="/Bilgisayar Ürünleri Galerisi/ürün16.jpg" alt="Denim Jeans" style="width:100%">
+                                    <h1>HP</h1>
+                                    <p class="price">6.782,65 ₺</p>
+                                    <p>15-DB0062NT AMD A9 9425 8GB 256GB SSD Radeon 530 Freedos 15.6" FHD 7JY80EA</p>
+                                    <p><button>Add to Cart</button></p>
+                                  </div>
+
+                                  
+                                      
+
+
+
+
+
+
+
+
+
+
+
+        <link rel="Stylesheet" href="/Css/breadcrumb.css">
+        <script src="/Javascript/script1.js" ></script>
+                               
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+        crossorigin="anonymous">
+        </script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+        crossorigin="anonymous">
+        </script>
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+        crossorigin="anonymous">
+        </script>
+
+    <!-- FONT Awesome CDN-->
+    <script src="https://kit.fontawesome.com/23412c6a8d.js"></script>
+
+    <!--Custom StyleSheet-->
+
+    <link rel="stylesheet" href="./css/style1.css">   
+    <link rel="stylesheet" href="./css/overlay1.css">
+    <link rel="stylesheet" href="./css/login1.css">
+   
+    <link rel="stylesheet" href="./css/bilgisayar.css">
+    
+    
+</body>
+</html>

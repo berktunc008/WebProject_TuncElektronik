@@ -1,0 +1,97 @@
+/*import fonts from google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Anton|Gugi|Lato|Roboto|CrimsonText|Sofia|Lobster&display=swap');
+
+body {
+    font-family: Verdana, monospace, sans-serif;
+    
+    font-weight: bold;
+    
+    
+}
+:root{
+    --light-gray:#2b3032a1;
+    --primary-color:#454ecc;
+    --border:#2b303218;
+    --text-color:#ff686b;
+    --roboto:"Roboto",sans-serif;
+    --gugi:"Gugi",cursive;
+    --sofia:"Sofia",cursive;
+    --CrimsonText:"CrimsonText",cursive;
+    --Lobster:"Lobster",cursive;
+}
+
+.primary-color{
+    color:var(--primary-color);
+}
+
+.bg-primary-color{
+    background-color:var(--primary-color)!important;
+}
+
+.text-color{
+    color:var(--text-color);
+}
+
+.font-roboto{
+    font-family: var(--roboto);
+}
+
+.lightblue{
+    color:lightblue;
+}
+
+
+.logo{
+    position:absolute;
+    height: 60px;
+    width: 85px;
+    left: 250px;
+    top: 20px;
+}
+.adsoyadnumara{
+    position:absolute;
+    left: 350px;
+    top: 20px;
+    color: chartreuse;
+}
+
+
+
+header{
+    background-color:var(--primary-color);
+    font-family: var(--roboto);
+}
+
+h2.site-title{
+   font-family: var(--CrimsonText);
+}
+
+.container.dropdown-toggle,
+.container.dropdown-item{
+    font-size: 0.7em;
+}
+
+.header-links a{
+    font-size:20px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+#navbarNav{
+    background-color: darkkhaki;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:black;
+    margin-left:40px;
+}
+.kayıtolmaformu{
+    margin-left: 450px;
+}
+
+
+td{
+    color: chocolate;
+    font-weight: bold;
+}

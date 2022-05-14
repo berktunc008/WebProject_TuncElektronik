@@ -1,0 +1,388 @@
+/*import fonts from google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Anton|Gugi|Lato|Roboto|CrimsonText|Sofia|Lobster&display=swap');
+
+body {
+    font-family: Verdana, monospace, sans-serif;
+    
+    font-weight: bold;
+    
+    
+}
+:root{
+    --light-gray:#2b3032a1;
+    --primary-color:#454ecc;
+    --border:#2b303218;
+    --text-color:#ff686b;
+    --roboto:"Roboto",sans-serif;
+    --gugi:"Gugi",cursive;
+    --sofia:"Sofia",cursive;
+    --CrimsonText:"CrimsonText",cursive;
+    --Lobster:"Lobster",cursive;
+}
+
+.primary-color{
+    color:var(--primary-color);
+}
+
+.bg-primary-color{
+    background-color:var(--primary-color)!important;
+}
+
+.text-color{
+    color:var(--text-color);
+}
+
+.font-roboto{
+    font-family: var(--roboto);
+}
+
+.lightblue{
+    color:lightblue;
+}
+
+
+.logo{
+    position:absolute;
+    height: 60px;
+    width: 85px;
+    left: 250px;
+    top: 20px;
+}
+
+.adsoyadnumara{
+    position:absolute;
+    left: 350px;
+    top: 20px;
+    color: chartreuse;
+}
+
+
+header{
+    background-color:var(--primary-color);
+    font-family: var(--roboto);
+}
+
+h2.site-title{
+   font-family: var(--CrimsonText);
+}
+
+.container.dropdown-toggle,
+.container.dropdown-item{
+    font-size: 0.7em;
+}
+
+.header-links a{
+    font-size:20px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+#navbarNav{
+    background-color: darkkhaki;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:black;
+    margin-left:40px;
+}
+
+.kayanyazı{
+    color: darkmagenta;
+    font-weight:bold;
+    font: size 25;
+    font-family: var(--CrimsonText);
+}
+
+
+#carouselExampleInterval{
+    height: 100px;
+    width: 800px;
+    margin-left: 280px;
+    margin-top:30px ;
+    margin-right:50px;
+   
+}
+
+
+.carousel-control-prev-icon{
+    background-color:red;
+}
+.carousel-control-next-icon{
+    background-color: red;
+}
+
+
+ 
+.öneçıkanürünlertitle{
+    margin-top: 440px;
+    color: red;
+   
+    
+}
+
+                             /* ÖNE ÇIKAN ÜRÜNLER İÇİN MAİN SAYFADA*/
+#cardgroup1{
+    margin-top:80px;
+    
+    
+}
+
+
+#cardtitle1{
+    color: rgb(210, 30, 75);
+    text-align: center;
+    
+}
+
+#cardbody1{
+    background-color: sandybrown;
+}
+
+
+#cardimgtop1{
+    object-fit: cover;
+    width: 200px; 
+    height: 150px;
+    margin:auto;
+    
+    
+}
+
+#cardbody2{
+    background-color:rgb(167, 159, 173);
+}
+
+#cardbody3{
+    background-color: yellowgreen;
+}
+
+#cardbody4{
+    background-color: rgb(0, 89, 255);
+}
+
+
+                                 /*Parlaklık açma kapama*/
+#parlaklıkaçkapa {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+    
+  }
+
+              
+  
+                       /* Resimleri ekrana yaklaştırma
+  .card-img-top
+  {
+      transition: all 1.5s ease;
+
+  }
+  
+  .card-img-top:hover {
+    transform: scale(1.5);
+
+  }
+
+
+   /* map css*/
+  .map-container-6{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container-6 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+        /* CARD CSS LERİ OLUŞTURULDU*/
+    @import url("https://fonts.googleapis.com/css?family=Fjalla+One|Montserrat:300,400,700,800|Open+Sans:300");
+
+
+    main {
+      
+      max-width: 520px;
+      margin: 5% auto;
+      float:left;
+      margin-left:80px;
+    }
+    
+    .card {
+      box-shadow: 0 6px 6px rgba(0, 0, 0, 0.3);
+      transition: 200ms;
+      background:#b3d7ff;
+      
+    }
+    .card .card__title {
+      display: flex;
+      align-items: center;
+      padding: 30px 40px;
+    }
+    .card .card__title h3 {
+      flex: 0 1 200px;
+      text-align: right;
+      margin: 0;
+      color: #252525;
+      font-family: sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+    .card .card__title .icon {
+      flex: 1 0 10px;
+      background: #115dd8;
+      color: #fff;
+      padding: 10px 10px;
+      transition: 200ms;
+    }
+    .card .card__title .icon > a {
+      color: #fff;
+    }
+    .card .card__title .icon:hover {
+      background: #252525;
+    }
+    .card .card__body {
+      padding: 0 40px;
+      display: flex;
+      flex-flow: row no-wrap;
+      margin-bottom: 25px;
+    }
+    .card .card__body > .half {
+      box-sizing: border-box;
+      padding: 0 15px;
+      flex: 1 0 50%;
+    }
+    .card .card__body .featured_text h1 {
+      margin: 0;
+      padding: 0;
+      font-weight: 800;
+      font-family: "Montserrat", sans-serif;
+      font-size: 64px;
+      line-height: 50px;
+      color: #181e28;
+    }
+    .card .card__body .featured_text p {
+      margin: 0;
+      padding: 0;
+    }
+    .card .card__body .featured_text p.sub {
+      font-family: "Montserrat", sans-serif;
+      font-size: 26px;
+      text-transform: uppercase;
+      color: #686e77;
+      font-weight: 300;
+      margin-bottom: 5px;
+    }
+    .card .card__body .featured_text p.price {
+      font-family: "Fjalla One", sans-serif;
+      color: #252525;
+      font-size: 26px;
+    }
+    .card .card__body .image {
+      padding-top: 15px;
+      width: 100%;
+    }
+    .card .card__body .image img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+    .card .card__body .description {
+      margin-bottom: 25px;
+    }
+    .card .card__body .description p {
+      margin: 0;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 300;
+      line-height: 27px;
+      font-size: 16px;
+      color: #555;
+    }
+    .card .card__body span.stock {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600;
+      color: #a1cc16;
+    }
+    .card .card__body .reviews .stars {
+      display: inline-block;
+      list-style: none;
+      padding: 0;
+    }
+    .card .card__body .reviews .stars > li {
+      display: inline-block;
+    }
+    .card .card__body .reviews .stars > li .fa {
+      color: #f7c01b;
+    }
+    .card .card__body .reviews > span {
+      font-family: "Open Sans", sans-serif;
+      font-size: 14px;
+      margin-left: 5px;
+      color: #555;
+    }
+    .card .card__footer {
+      padding: 30px 40px;
+      display: flex;
+      flex-flow: row no-wrap;
+      align-items: center;
+      position: relative;
+    }
+    .card .card__footer::before {
+      content: "";
+      position: absolute;
+      display: block;
+      top: 0;
+      left: 40px;
+      width: calc(100% - 40px);
+      height: 3px;
+      background: #115dd8;
+      background: linear-gradient(to right, #115dd8 0%, #115dd8 20%, #ddd 20%, #ddd 100%);
+    }
+    .card .card__footer .recommend {
+      flex: 1 0 10px;
+    }
+    .card .card__footer .recommend p {
+      margin: 0;
+      font-family: "Montserrat", sans-serif;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 14px;
+      color: #555;
+    }
+    .card .card__footer .recommend h3 {
+      margin: 0;
+      font-size: 20px;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: #115dd8;
+    }
+    .card .card__footer .action button {
+      cursor: pointer;
+      border: 1px solid #115dd8;
+      padding: 14px 30px;
+      border-radius: 200px;
+      color: #fff;
+      background: #115dd8;
+      font-family: "Open Sans", sans-serif;
+      font-size: 16px;
+      transition: 200ms;
+    }
+    .card .card__footer .action button:hover {
+      background: #fff;
+      color: #115dd8;
+    }
+    
